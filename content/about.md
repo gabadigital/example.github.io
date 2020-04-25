@@ -1,7 +1,7 @@
 ---
-title: "A"
-date: 2020-01-23T07:55:51-08:00
-type: "static"
-layout: "about"
+title: About
+date: 2020-01-23T15:55:51.000Z
+type: static
+layout: about
 ---
-Why is this not working
+Change it lets see
