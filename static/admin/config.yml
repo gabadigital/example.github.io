@@ -34,7 +34,7 @@ collections:
     files:
       - label: "about Page"
         name: "about"
-        file: "site/content/about.yml"
+        file: "site/content/about.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
