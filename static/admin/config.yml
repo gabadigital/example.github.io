@@ -32,9 +32,9 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "about Page"
+      - label: "about"
         name: "about"
-        file: "site/content/about.md"
+        file: "content/"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
@@ -45,3 +45,4 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Position, name: position, widget: string}
               - {label: Photo, name: photo, widget: image}
+                - {label: Body, name: body, widget: markdown}
