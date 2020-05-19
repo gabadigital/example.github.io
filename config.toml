@@ -1,5 +1,4 @@
-baseURL = "https://serene-hodgkin-56c051.netlify.com/"
+baseURL = ""
 languageCode = "en-us"
 title = "Example website"
 Copyright = "Awokoya Learning"
-Paginate = 3
