@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="/css/main.css">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    {{range .Pages }}
-      <li> <a href="{{.URL}}">{{.Title}}</a></li>
-    {{end}}
-    hello what are you doing
+
+  {{range .Paginator.Pages}}
+    <h2> <a href="{{.Permalink}}">{{.Title}}</a> </h2>
+    {{.Summary}}
+  {{end}}
+  <br>
+
+  {{ partial "pagination" . }}
+
   </body>
 </html>

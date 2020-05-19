@@ -1,0 +1,11 @@
+{{ $paginator := .Paginator }}
+{{if gt $paginator.TotalPages 1}}
+
+  {{range $paginator.Pagers}}
+
+    <a href="{{.URL}}">{{.PageNumber}}</a>
+
+
+  {{end}}
+
+{{end}}

@@ -1,5 +1,5 @@
 ---
-title: Mr Man
+title: "Another one"
 date: 2020-04-25T17:05:44.922Z
 description: Description
 ---
