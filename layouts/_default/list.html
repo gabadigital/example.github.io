@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {{ range .Site.RegularPages }}
+
+    <div style="background-color:lightgrey; padding:30px">
+      <h2><a href="#">{{.Title}}</a></h2>
+      {{.Summary}}
+    </div><br>
+
+    {{end}}
+
+  </body>
+</html>
