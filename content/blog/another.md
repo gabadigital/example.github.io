@@ -1,6 +1,0 @@
----
-title: "Another one"
-date: 2020-04-25T17:05:44.922Z
-description: Description
----
-Let's see if this works. This is a new blog post created.
