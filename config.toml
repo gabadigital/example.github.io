@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "example.ng"
 languageCode = "en-us"
 title = "Example website"
 Copyright = "Awokoya Learning"
