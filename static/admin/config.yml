@@ -19,7 +19,7 @@ collections:
 
 - name: 'resource'
   label: 'Recources'
-  folder: 'content/resources'
+  folder: 'content/resource'
   create: true
   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
   editor:
