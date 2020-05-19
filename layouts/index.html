@@ -7,14 +7,9 @@
     <title>New Website</title>
   </head>
   <body>
-    Guy how far
+    {{.Content}}
 
-    {{ range .Site.RegularPages}}
-    <div style="background-color:lightgrey; padding:30px;">
-      <h2><a href="#">{{.Title}}</a></h2>
-      {{.Summary}}
-    </div></br>
-    {{end}}
+
 
   </body>
 </html>
